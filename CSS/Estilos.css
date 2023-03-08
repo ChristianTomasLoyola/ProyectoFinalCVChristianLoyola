@@ -1,0 +1,100 @@
+*{
+	font-family: roboto;
+}
+
+html {
+	background-color: #dee2ff;
+}
+
+header{
+	padding: 10px;
+	background-color: #57bcff;
+}
+
+h1 {
+	font-size: 70px;
+	text-align: center;
+	text-shadow: 5px 2px 4px blue;
+	padding: 10px;
+	border: 11px ridge gray;
+	background-color: #bdc7c3;
+	margin: 10px;
+	box-shadow: 5px 5px 4px blue;
+	border-radius: 15px;
+}
+
+nav{
+	padding: 10px;
+	border: 5px double gray;
+	text-align: center;
+	margin: 10px;
+	background-color: #b482ff;
+	border-radius: 15px;
+}
+
+button {
+	color: rgb(7, 7, 7);
+	font-size: 22px; 
+	line-height: 22px;
+	padding: 6px;
+	border-radius: 10px;
+	font-family: Georgia, 
+	serif; font-weight: normal;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	background-image: linear-gradient(to right, rgb(158, 69, 164) 0%, 
+												rgb(203, 66, 107) 50%, 
+												rgb(158, 69, 164) 100%); 
+	box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; 
+	border: 2px solid rgb(28, 110, 164); 
+	display: inline-block;
+}
+
+}
+
+div{
+	margin: 10px;
+	background-color:-webkit-linear-gradient(top, blue, black);
+	background-color:-webkit-linear-gradient(to bottom, blue, black);
+}
+
+h2 {
+	font-size: 50px;
+}
+
+p, main {
+	font-size: 20px;
+}
+
+img {
+	height: 300px;
+	float: left;
+	border-radius: 50px;
+}
+
+a:hover{
+	color: red;
+}
+
+/* clases */
+
+.bold{
+	font-weight: bold;
+}
+
+.altura {
+	width: 100px;
+	height: 100px;
+}
+
+.posicion{
+	position: fixed;
+	bottom: 50px;
+	left: 50px;
+}
+
+.flotadorDer{
+	float: right;
+}
